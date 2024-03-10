@@ -90,7 +90,7 @@ def main():
     st.title('Data Transformation Tool')
 
     # File uploader allows user to add their own excel file
-    uploaded_file = st.file_uploader("Upload your input Excel file", type=["xlsx"])
+    uploaded_file = st.file_uploader("Upload your input Excel file. After uploading, please select your chart parameters and click 'Plot'", type=["xlsx"])
 
     if uploaded_file is not None:
         data = convert_to_long_format(uploaded_file)

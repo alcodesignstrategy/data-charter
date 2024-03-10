@@ -27,7 +27,7 @@ def run():
     st.markdown(
         """
         This is for you to upload your data and generate useful charts!
-        Click on the next page to upload your data 😊
+        Click on the next page to upload your data.
         
         """
     )
